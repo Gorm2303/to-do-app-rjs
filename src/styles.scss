@@ -3,5 +3,16 @@
     Button {
         width: 140px;
         height: 50px;
+        font-size: 25px !important;
+
     }    
+    .alert {
+        height: 80px;
+        font-size: 25px;
+        Button {
+        }
+        Input {
+            font-size: 25px
+        }
+    }
 }
