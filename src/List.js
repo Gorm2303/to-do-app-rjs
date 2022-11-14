@@ -9,7 +9,7 @@ function App() {
     const [inputText, setInputText] = useState('');
 
     function addItem() {
-        setList([...list, inputText]);
+        setList([inputText, ...list]);
         setInputText('');
     }
 
