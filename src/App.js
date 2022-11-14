@@ -14,7 +14,7 @@ function App() {
             <MyNavbar/>
             <Routes>
               <Route index element={<Frontpage />}/>
-              <Route path="/page2" element={<Page2 />} />
+              {/* <Route path="/page2" element={<Page2 />} /> */}
             </Routes>
           </Suspense>
         </BrowserRouter>        
